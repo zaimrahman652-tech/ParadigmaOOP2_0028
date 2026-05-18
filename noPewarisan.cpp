@@ -25,3 +25,13 @@ public:
         cout << "Hallo saya Function dari derived Class" << endl;
     }
 };
+
+int main() {
+    // Membuat objek dari derivedClass
+    derivedClass a;
+    
+    // Memanggil fungsi perkenalan milik derivedClass
+    a.perkenalan();
+
+    return 0;
+}
