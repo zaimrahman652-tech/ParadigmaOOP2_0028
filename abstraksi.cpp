@@ -19,3 +19,12 @@ public:
         cout << "y = " << y << endl;
     }
 };
+
+int main() {
+    // Membuat objek dari kelas AbstraksiKlas
+    AbstraksiKlas ak;
+
+    // Mengisi data secara tidak langsung melalui method setXY
+    ak.setXY("Yogyakarta", "Kampus");
+
+   
