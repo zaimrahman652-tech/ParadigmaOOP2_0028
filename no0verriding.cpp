@@ -10,3 +10,12 @@ public:
     }
 };
 
+class derivedClass : public baseClass {
+public:
+    // Dosen Anda mengubah nama fungsinya menjadi 'perkenalan1' (ada angka 1)
+    // Ini dilakukan agar kode tidak eror saat di-compile!
+    void perkenalan1() {
+        cout << "Hallo saya function dari derived Class" << endl;
+    }
+};
+
