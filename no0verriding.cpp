@@ -19,3 +19,12 @@ public:
     }
 };
 
+int main() {
+    // Membuat objek dari derivedClass
+    derivedClass a;
+    
+    // Memanggil fungsi perkenalan1 milik derivedClass
+    a.perkenalan1();
+
+    return 0;
+}
