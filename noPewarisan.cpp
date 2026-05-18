@@ -9,3 +9,12 @@ public:
         cout << "Hallo saya Function dari base class" << endl;
     }
 };
+
+// Class biasa (tanpa final) yang bertindak sebagai Base Class alternatif
+class baseClass1 {
+public:
+    virtual void perkenalan() {
+        cout << "Hallo saya Function dari base class" << endl;
+    }
+};
+
