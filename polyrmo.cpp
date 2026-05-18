@@ -37,3 +37,17 @@ int main() {
     joko a;
     lia b;
     
+    // Polimorfisme: Pointer induk menunjuk ke objek joko (a)
+    obyek = &a;
+    obyek->pesan(); // Akan memanggil pesan() milik joko
+    
+    // Polimorfisme: Pointer induk menunjuk ke objek lia (b)
+    obyek = &b;
+    obyek->pesan(); // Akan memanggil pesan() milik lia
+    
+    // Bagian ini dikomentari di slide kuliah Anda:
+    // //a.seseorang::pesan();
+    // //b.seseorang::pesan();
+    
+    return 0;
+}
