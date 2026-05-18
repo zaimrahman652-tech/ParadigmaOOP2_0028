@@ -18,3 +18,8 @@ public:
     }
 };
 
+int main() {
+    // Membuat objek dari kelas remoteLampu
+    remoteLampu lampuRumah;
+
+   
