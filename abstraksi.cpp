@@ -27,4 +27,8 @@ int main() {
     // Mengisi data secara tidak langsung melalui method setXY
     ak.setXY("Yogyakarta", "Kampus");
 
-   
+    // Menampilkan data menggunakan method display
+    ak.display();
+
+    return 0;
+}
