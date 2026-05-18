@@ -28,3 +28,12 @@ public:
         cout << "Pesan dari lia" << endl;
     }
 };
+
+int main() {
+    // Membuat pointer dari kelas induk
+    seseorang* obyek;
+    
+    // Membuat objek dari kelas turunan
+    joko a;
+    lia b;
+    
